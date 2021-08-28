@@ -1,0 +1,19 @@
+.hastags-container {
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	p {
+		background: rgb(118, 118, 202);
+		color: white;
+		border-radius: 12px;
+		cursor: pointer;
+		padding: 0.5em;
+		margin-left: 12px;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		&:hover {
+			background: rgb(139, 139, 207);
+		}
+	}
+}
